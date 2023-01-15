@@ -10,6 +10,6 @@ WORKDIR /fluent-bit
 
 COPY fluent-bit.conf ./etc/fluent-bit.conf
 
-VOLUME ["/fluent-bit/data"]
+#VOLUME ["/fluent-bit/data"]
 
 EXPOSE 11001

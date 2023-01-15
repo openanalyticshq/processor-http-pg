@@ -8,7 +8,7 @@ FROM fluent/fluent-bit:2.0.8
 
 WORKDIR /fluent-bit
 
-COPY fluent-bit.conf ./etc/fluent-bit.conf
+COPY conf ./etc
 
 #VOLUME ["/fluent-bit/data"]
 
